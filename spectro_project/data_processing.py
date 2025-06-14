@@ -264,7 +264,6 @@ def find_best_spectra(selected_metabolites: str,
     hmdb_list = sel['HMDB.ca ID'].tolist()
     counts = {"1H": 0, "13C": 0}
     counts_type = {"predicted": 0, "experimental": 0}
-    # HMDB0341414.1D.282437.predicted.13C.900_processed.csv
     pattern = re.compile(
     r'^(HMDB\d{7})\.1D\.(\d+)\.(predicted|experimental)\.(1H|13C)\.(\d+(?:\.\d+)?)' +
     r'(?:_MHz)?_processed\.csv$'
