@@ -8,7 +8,9 @@ BASE_DIR = os.getcwd()
 NUM_WORKERS = mp.cpu_count() - 1  # One worker free for system tasks
 HMDB_ROOT = os.path.join(BASE_DIR, "data")
 OUTPUT_DIR = os.path.join(BASE_DIR, "processed_data")
-REFERENCE_FILES = ["HMDB0000023.1D.1037.experimental.1H.500_MHz_processed.csv",
+
+REFERENCE_FILES = [
+                    "HMDB0000023.1D.1037.experimental.1H.500_MHz_processed.csv",
                     "HMDB0000042.1D.1048.experimental.1H.500_MHz_processed.csv",
                     "HMDB0000064.1D.1064.experimental.1H.500_MHz_processed.csv",
                     "HMDB0000087.1D.1077.experimental.1H.500_MHz_processed.csv",
@@ -34,17 +36,19 @@ REFERENCE_FILES = ["HMDB0000023.1D.1037.experimental.1H.500_MHz_processed.csv",
                     "HMDB0001870.1D.1769.experimental.1H.600_MHz_processed.csv",
                     "HMDB0003911.1D.1985.experimental.1H.600_MHz_processed.csv",
                     "HMDB0011635.1D.2052.experimental.1H.500_MHz_processed.csv"
-    ]
+]
 
 QC_FILE = ["1541_QC.csv"]
 
-EXPERIMENTS_FILES = ["1_V5001_D1.csv",
-                     "10_V5001_D10.csv",
-                     "100_V5001_D100.csv",
-                     "255_V5001_D716.csv",
+EXPERIMENTS_FILES = [
+                    "1_V5001_D1.csv",
+                    "10_V5001_D10.csv",
+                    "100_V5001_D100.csv",
+                    "255_V5001_D716.csv",
 ]
 
-NAMES = ["S-3-hydroxyisobutyrate",
+NAMES = [
+        "S-3-hydroxyisobutyrate",
         "acetic acid",
         "creatine",
         "dimethylamine",
@@ -79,7 +83,8 @@ ENV = gp.Env(params={
     }
 )
 
-EXP_REFERENCE_FILES = ["HMDB0000023.1D.1037.experimental.1H.500_MHz_processed.csv",
+EXP_REFERENCE_FILES = [
+                    "HMDB0000023.1D.1037.experimental.1H.500_MHz_processed.csv",
                     "HMDB0000042.1D.1048.experimental.1H.500_MHz_processed.csv",
                     "HMDB0000064.1D.1064.experimental.1H.500_MHz_processed.csv",
                     "HMDB0000087.1D.1077.experimental.1H.500_MHz_processed.csv",
@@ -112,7 +117,8 @@ EXP_REFERENCE_FILES = ["HMDB0000023.1D.1037.experimental.1H.500_MHz_processed.cs
                     "HMDB0011635.1D.2052.experimental.1H.500_MHz_processed.csv"
     ]
 
-EXP_NAMES = ["S-3-hydroxyisobutyrate",
+EXP_NAMES = [
+        "S-3-hydroxyisobutyrate",
         "acetic acid",
         "creatine",
         "dimethylamine",
