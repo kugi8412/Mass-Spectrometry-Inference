@@ -52,7 +52,7 @@ If you are a researcher, we strongly recommend using Gurobi (available for acade
 See `spectro_project` folder to see example of practical use. In this project, we will analyse data from a study aimed at checking
 how the level of metabolites in the urine of a volunteer staying in a standardised and stable environment changes. For details, read task [description](https://github.com/kugi8412/Mass-Spectrometry-Inference/blob/main/spectro_project/task_description.pdf). However to review the analyses, read the [report](https://github.com/kugi8412/Mass-Spectrometry-Inference/blob/main/spectro_project/Raport.pdf).
 
-For other examples see estimation.ipynb in folder examples.
+For other examples see [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kugi8412/Mass-Spectrometry-Inference/blob/main/examples/estimation.ipynb)
 
 ### Acknowledgements
 
